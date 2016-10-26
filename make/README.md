@@ -1,7 +1,7 @@
 # docker makefiles
 
     cd product_repo/my_product/my_service # dir containing Dockerfile
-    git clone git@github.com:EurostarDigital/build_docker --depth 1
+    git clone git@github.com:jinal--shah/build_docker --depth 1
     make -f build_docker/Makefile clean build
 
 ## dir layout
